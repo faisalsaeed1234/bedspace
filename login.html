@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Coming Soon...</title>
+    <title>Let's find your cheap bed space</title>
     
     <!-- fonts css -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet"> 
@@ -14,16 +14,16 @@
     <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
     
     <!-- global css -->
-    <link href="css/global.css" rel="stylesheet">
+    <link type="text/css" href="css/global.css" rel="stylesheet">
 
     <!-- overlay menu css -->
-    <link href="css/overlay-menu.css" rel="stylesheet">
+    <link type="text/css" href="css/overlay-menu.css" rel="stylesheet">
     
     <!-- scrolling css -->
-    <link href="css/scrolling-effects.css" rel="stylesheet">
+    <link type="text/css" href="css/scrolling-effects.css" rel="stylesheet">
     
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -35,35 +35,32 @@
   </head>
   <body>
 
-  <!-- header -->
-  <header class="navbar navbar-inverse">
-    <div class="container">
-      <div class="row fadeInUp">
-        <!-- logo left --> 
-        <div class="logo logo-left">
-          <div class="col-md-4">
-            <div class="logo-holder"><a href=""><img src="http://placehold.it/200x150"></a></div> 
+
+
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="#!" class="brand-logo">Logo</a>
+
+          <div class="open-menu pull-right">
+            <i class="fa fa-bars fa-3x"></i>
           </div>
+
+          <div class="get-touch-btn pull-right"> 
+              <button class="button button--wayra button-white-border button--inverted" data-toggle="modal" data-target="#get-touch">get in touch</button>
+          </div> 
+
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sass</a></li>
+            <li><a href="badges.html">Components</a></li>
+          </ul>
         </div>
-        <div class="open-menu pull-right">
-          <i class="fa fa-bars fa-3x"></i>
-        </div>
-        
-        <!-- logo center --> 
-        <!-- <div class="logo logo-center text-center">
-          <div class="col-md-4 col-md-offset-4">
-            <div class="logo-holder"><a href=""><img src="http://placehold.it/200x100"></a></div>
-          </div>
-        </div> -->
-        <!-- logo right --> 
-        <!-- <div class="logo logo-right">
-          <div class="col-md-4 col-md-offset-8">
-            <div class="logo-holder"><a href=""><img src="http://placehold.it/200x50"></a></div>
-          </div>
-        </div> -->
       </div>
-    </div><!-- /.container-fluid -->
-  </header>
+    </nav>
+  </div>
+
+
 
   <!-- Overlay Navigation Menu -->
   <div class="overlay">
@@ -91,26 +88,90 @@
   <!-- content -->
   <div class="top-main-header" id="">  
     <div class="container">
-      <div class="row fadeInUp">
-        <div class="col-md-4 col-md-offset-4">
-          <div class="text-center">
-            <h1>LET'S find YOUR cheap bed space</h1>
-            <p> Nam fermentum tincidunt urna, finibus dapibus ex feugiat sit amet. Curabitur non dui non nisl posuere congue viverra id elit. </p>
+        <div class="text-center">
+          <h1>LET'S find YOUR cheap bed space</h1>
+          <p> Nam fermentum tincidunt urna,  </p>
+        </div>
+
+        <div class="row fadeInUp">
+          <div class="col s4">
+
           </div> 
-        </div>            
+          <div class="col s4">
+
+          </div> 
+          <div class="col s4">
+
+          </div>            
       </div>
     </div>
   </div>
 
+  <section class="listing-grid">  
+    <div class="container">
+      <div class="row fadeInUp">
+        <div class="col s12 l4">
+          <div class="card result-grid">
+            <div class="card-image">
+              <a href=""><img src="images/maddie-school1.jpg"></a>
+            </div>
+            <div class="card-content">
+            <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="card result-grid">
+            <div class="card-image">
+              <a href=""><img src="images/medal.jpg"></a>
+              
+            </div>
+            <div class="card-content">
+            <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l4">
+          <div class="card result-grid">
+            <div class="card-image">
+              <a href=""><img src="images/medical.jpg"></a>
+              
+            </div>
+            <div class="card-content">
+            <span class="card-title">Card Title</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+
+           
+      </div>
+    </div>
+  </section>
+
   <section class="content" id="two-col">  
     <div class="container">
       <div class="row fadeInUp">
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col s6">
           <div class="text-center">
             <img src="http://placehold.it/500x500">
           </div> 
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col s6">
           <div class="text-center">
             <p> Curabitur interdum, turpis eget bibendum elementum, ipsum erat ornare diam, cursus aliquet purus ligula vel ex. Nam mi nulla, faucibus nec elit in, pretium vestibulum mauris. Sed euismod ultrices tortor at ultrices. Morbi sit amet mi vitae justo luctus placerat vel a mauris. Etiam at tincidunt felis. Morbi et suscipit justo. In quis nisi dictum, bibendum dui et, gravida sapien. Proin gravida rutrum massa, at maximus est tempor a. Morbi maximus purus sed dui gravida, id venenatis magna suscipit.  </p>
           </div> 
@@ -122,12 +183,12 @@
   <section class="content" id="two-col">  
     <div class="container">
       <div class="row fadeInUp">
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col s6">
           <div class="text-center">
             <p> Curabitur interdum, turpis eget bibendum elementum, ipsum erat ornare diam, cursus aliquet purus ligula vel ex. Nam mi nulla, faucibus nec elit in, pretium vestibulum mauris. Sed euismod ultrices tortor at ultrices. Morbi sit amet mi vitae justo luctus placerat vel a mauris. Etiam at tincidunt felis. Morbi et suscipit justo. In quis nisi dictum, bibendum dui et, gravida sapien. Proin gravida rutrum massa, at maximus est tempor a. Morbi maximus purus sed dui gravida, id venenatis magna suscipit.  </p>
           </div> 
         </div> 
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col s6">
           <div class="text-center">
             <img src="http://placehold.it/500x500">
           </div> 
@@ -143,7 +204,7 @@
     <h1>contact us</h1>
     <div class="container">
       <div class="row fadeInUp">   
-        <div class="col-md-6">   
+        <div class="col s6">   
           <form>
             <div class="form-group"> 
               <div class="input input--jiro">
@@ -182,7 +243,7 @@
         </div>
 
 
-        <div class="col-md-6">
+        <div class="col s6">
           <div class="map-cont">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14432.508622055706!2d55.29997766017914!3d25.266307651591237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41cafba46e7b8d75!2sDeira+Twin+Towers!5e0!3m2!1sen!2sae!4v1486794005095" width="100%" height="605" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
@@ -197,9 +258,9 @@
     <h1>contact us</h1>
     <div class="container">
       <div class="row fadeInUp">   
-        <div class="col-md-12">
+        <div class="col s12">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col s6">
               <form>
                 <div class="form-group"> 
                   <div class="input input--jiro">
@@ -228,7 +289,7 @@
 
               </form>
             </div>
-            <div class="col-md-6">
+            <div class="col s6">
               <div class="form-group">
                 <div class="input input--jiro">
                   <textarea class="input__field input__field--jiro"  id=""></textarea>
@@ -309,7 +370,8 @@
   <script src="js/jquery-1.10.2.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js" charset="utf-8"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 
   <!-- jQuery overlay menu -->
   <script src="js/overlay-menu.js"></script>
